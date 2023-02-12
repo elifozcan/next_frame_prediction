@@ -7,11 +7,11 @@ In this project, we will try different deep learning models for predicting the n
 
 ## Datasets
 ### Circle Dataset
-For the next frame prediction application, we created our video data set. This data set contains 1000 videos for training and 200 for testing. Each video is 4 seconds and has 24 frames per second. Each frame is 80x80 in size. There are 2 circles in the videos, one big and one small, and these circles move linearly in the randomly determined direction.
+For the next frame prediction application, we created our video data set. This data set contains 1000 videos for training and 200 for testing. Each video is 4 seconds and has 24 frames per second. Each frame is 80x80 in size. There are 2 circles in the videos, one big and one small, and these circles move linearly in the randomly determined direction. The Circle dataset can be obtained by running `Database/create_videos.ipynb`.
 
 ### Moving Mnsit
 While training the models we also used Moving Mnist dataset beside circle dataset and the reason for this is to compare our results with other studies that usually uses the Moving Mnsit dataset.
-In the pix2pix model only one video is used to train the model and normally Moving Mnist Dataset has 10.000 videos each containing 20 frames so we have to use 10 frames for training and 10 frames for testing. After getting the results we thought 10 frames can be so small for training and we create a video with 60 frames of Mnist data.
+In the pix2pix model only one video is used to train the model and normally Moving Mnist Dataset has 10.000 videos each containing 20 frames so we have to use 10 frames for training and 10 frames for testing. After getting the results we thought 10 frames can be so small for training and we create a video with 60 frames of Mnist data. The moving mnist dataset can download via this link: [Moving Mnist Dataset](http://www.cs.toronto.edu/~nitish/unsupervised_video/)
 
 ## Performance Analysis
 In this chapter, the performances of every model we trained in both of the performance metrics we used for our project and our comments on the results are mentioned.

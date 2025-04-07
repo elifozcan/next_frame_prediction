@@ -100,3 +100,7 @@ We cannot make a comparison for the multiscale gan model as we do with the other
 Considering the success of all models tried for the Moving mnist dataset, it can be said that the most successful one is the conv_lstm model2.
 
 Considering the success of all models tried for the Circle dataset, it can be said that the pix2pix model is quite successful in predicting the first frames, while the conv_lstm model2 is more successful in predicting the final frames.
+
+## Contributors
+- Büşra Küden (https://github.com/busrakuden)
+- Elif Özcan (https://github.com/elifozcan)
